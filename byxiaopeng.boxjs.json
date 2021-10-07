@@ -1,0 +1,51 @@
+{
+	"id": "byxiaopeng.app.sub",
+	"name": "byxiaopeng脚本订阅",
+	"author": "@byxiaopeng",
+	"icon": "https://avatars.githubusercontent.com/u/23413134?s=460",
+	"repo": "https://github.com/byxiaopeng/myscripts",
+	"apps": [
+		{
+			"id": "xfapp",
+			"name": "溆锋APP",
+			"keys": ["xfPhone"],
+			"settings": [
+				{
+					"id": "xfPhone",
+					"name": "溆锋APP账户密码",
+					"val": "",
+					"type": "text",
+					"desc": "token 列表，以@间隔分开"
+				}
+			],
+			"icons": [
+				"https://www.wuhuoculture.com/favicon.ico",
+				"https://www.wuhuoculture.com/favicon.ico"
+			],
+			"author": "@byxiaopeng",
+			"repo": "https://github.com/byxiaopeng/myscripts",
+			"script": "https://raw.fastgit.org/byxiaopeng/myscripts/main/xfapp.js"
+		},
+		{
+			"id": "byapp",
+			"name": "博越APP",
+			"keys": ["byPhone"],
+			"settings": [
+				{
+					"id": "byPhone",
+					"name": "博越APP账户密码",
+					"val": "",
+					"type": "text",
+					"desc": "token 列表，以@间隔分开"
+				}
+			],
+			"icons": [
+				"https://www.wuhuoculture.com/favicon.ico",
+				"https://www.wuhuoculture.com/favicon.ico"
+			],
+			"author": "@byxiaopeng",
+			"repo": "https://github.com/byxiaopeng/myscripts",
+			"script": "https://raw.fastgit.org/byxiaopeng/myscripts/main/byapp.js"
+		}
+	]
+}

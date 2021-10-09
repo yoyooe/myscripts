@@ -1,51 +1,98 @@
 {
-	"id": "byxiaopeng.app.sub",
-	"name": "byxiaopeng脚本订阅",
-	"author": "@byxiaopeng",
-	"icon": "https://avatars.githubusercontent.com/u/23413134?s=460",
-	"repo": "https://github.com/byxiaopeng/myscripts",
-	"apps": [
-		{
-			"id": "xfapp",
-			"name": "溆锋APP",
-			"keys": ["xfPhone"],
-			"settings": [
-				{
-					"id": "xfPhone",
-					"name": "溆锋APP账户密码",
-					"val": "",
-					"type": "text",
-					"desc": "token 列表，以@间隔分开"
-				}
-			],
-			"icons": [
-				"https://www.wuhuoculture.com/favicon.ico",
-				"https://www.wuhuoculture.com/favicon.ico"
-			],
-			"author": "@byxiaopeng",
-			"repo": "https://github.com/byxiaopeng/myscripts",
-			"script": "https://raw.fastgit.org/byxiaopeng/myscripts/main/xfapp.js"
-		},
-		{
-			"id": "byapp",
-			"name": "博越APP",
-			"keys": ["byPhone"],
-			"settings": [
-				{
-					"id": "byPhone",
-					"name": "博越APP账户密码",
-					"val": "",
-					"type": "text",
-					"desc": "token 列表，以@间隔分开"
-				}
-			],
-			"icons": [
-				"https://www.wuhuoculture.com/favicon.ico",
-				"https://www.wuhuoculture.com/favicon.ico"
-			],
-			"author": "@byxiaopeng",
-			"repo": "https://github.com/byxiaopeng/myscripts",
-			"script": "https://raw.fastgit.org/byxiaopeng/myscripts/main/byapp.js"
-		}
-	]
+    "id": "byxiaopeng.app.sub",
+    "name": "byxiaopeng脚本订阅",
+    "author": "@byxiaopeng",
+    "icon": "https://avatars.githubusercontent.com/u/23413134?s=460",
+    "repo": "https://github.com/byxiaopeng/myscripts",
+    "apps": [{
+        "id": "xfapp",
+        "name": "溆锋APP",
+        "keys": ["xfPhone","xfPhone2"],
+        "settings": [{
+            "id": "xfcount",
+            "name": "账号个数",
+            "val": "1",
+            "type": "number",
+            "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+        }, {
+            "id": "xfPhone",
+            "name": "溆锋APP账户密码1",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+        }, {
+            "id": "xfPhone2",
+            "name": "溆锋APP账户密码2",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+        }],
+        "icons": [
+            "https://www.wuhuoculture.com/favicon.ico",
+            "https://www.wuhuoculture.com/favicon.ico"],
+        "author": "@byxiaopeng",
+        "repo": "https://github.com/byxiaopeng/myscripts",
+        "script": "https://raw.fastgit.org/byxiaopeng/myscripts/main/xfapp.js"
+    }, {
+        "id": "byapp",
+        "name": "博越APP",
+        "keys": ["byPhone","byPhone2"],
+        "settings": [{
+            "id": "bycount",
+            "name": "账号个数",
+            "val": "1",
+            "type": "number",
+            "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+        }, {
+            "id": "byPhone",
+            "name": "博越APP账户密码1",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+        }
+		, {
+            "id": "byPhone2",
+            "name": "博越APP账户密码2",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+        }],
+        "icons": [
+            "https://www.wuhuoculture.com/favicon.ico",
+            "https://www.wuhuoculture.com/favicon.ico"],
+        "author": "@byxiaopeng",
+        "repo": "https://github.com/byxiaopeng/myscripts",
+        "script": "https://raw.fastgit.org/byxiaopeng/myscripts/main/byapp.js"
+    },
+	{
+        "id": "ygyapp",
+        "name": "御果园APP",
+        "keys": ["ygyPhone","ygyPhone2"],
+        "settings": [{
+            "id": "ygycount",
+            "name": "账号个数",
+            "val": "1",
+            "type": "number",
+            "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+        }, {
+            "id": "ygyPhone",
+            "name": "御果园APP账户密码1",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+        }
+		, {
+            "id": "ygyPhone2",
+            "name": "御果园APP账户密码2",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+        }],
+        "icons": [
+            "https://www.yoo-woo.com/favicon.ico",
+            "https://www.yoo-woo.com/favicon.ico"],
+        "author": "@byxiaopeng",
+        "repo": "https://github.com/byxiaopeng/myscripts",
+        "script": "https://raw.fastgit.org/byxiaopeng/myscripts/main/ygyapp.js"
+    }]
 }
